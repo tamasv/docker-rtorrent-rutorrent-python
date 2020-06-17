@@ -1,4 +1,4 @@
-FROM xataz/rtorrent-rutorrent:latest
+FROM linuxserver/rutorrent:latest
 # Copy mimetypes, cause we need it
 COPY mime.types /etc/mime.types
 # Add a bit of a python3 support
